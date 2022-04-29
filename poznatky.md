@@ -34,9 +34,11 @@ Tzn. v knihovnach Pythonu.
 
 samostatne oddelene od mych knihoven
 `pipenv install requests`
+`pipenv run python module` - `https://pypi.org/project/pipenv/`
 
 - `pipenv` - pro tvorbu a pouzivani virtualnich prostredi
 - `requests` - instalace `pipenv install requests` nainstaluje do virtualu knihovnu pro praci s REST, HTML...
+
 - `gooey` - z programu pracujicich v bashi, udela gui apku
 - `sqlalchemy` - umoznuje pristup ke vsem druhum sql databazi jako k objektum - dokumentace https://www.sqlalchemy.org/docs/
 - `django` - slouzi k vytvareni webovych api ktere potrebuji neco jako spravu uctu a pod., napul redakcni system
@@ -56,6 +58,10 @@ samostatne oddelene od mych knihoven
 - `pywebio` - vytvori webovej kontext - vcetne funkcnich a interaktivnich prvku
 - `mkdocs`  - pro tvorbu dokumentace https://pypi.org/project/mkdocs/ 
 - `textblob`- parsuje text, spellcheck, co je podst jmeno... dokaze pluralizovat - mnozne cislo 
+- `pipenv pelican content` vytvori blog spusti se
+    - spustim vizualizaci v do browseru
+    - `python3 -m http.server` 
+    -    `pipenv run pelican content`
 
 ### Tipy pro Python radek
 
